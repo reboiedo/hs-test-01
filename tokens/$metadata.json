@@ -1,7 +1,7 @@
 {
   "$schema": "https://designsystembuilder.dev/schemas/metadata-v1.json",
   "version": "1.0.0",
-  "generatedAt": "2025-12-23T01:06:57.952Z",
+  "generatedAt": "2025-12-23T18:56:28.164Z",
   "designSystem": {
     "name": "HS Test 01"
   },
@@ -16,106 +16,17 @@
         "default"
       ]
     },
-    "breakpoints": {
+    "space": {
       "kind": "fluid",
       "modes": [
         "default"
-      ],
-      "generator": {
-        "type": "fluidScale",
-        "viewport": {
-          "minWidth": 360,
-          "maxWidth": 1920
-        },
-        "breakpoints": [
-          810,
-          1280
-        ],
-        "spacing": {
-          "baseMin": 18,
-          "baseMax": 20,
-          "steps": [
-            {
-              "name": "3xs",
-              "multiplier": 0.25
-            },
-            {
-              "name": "2xs",
-              "multiplier": 0.5
-            },
-            {
-              "name": "xs",
-              "multiplier": 0.75
-            },
-            {
-              "name": "s",
-              "multiplier": 1
-            },
-            {
-              "name": "m",
-              "multiplier": 1.5
-            },
-            {
-              "name": "l",
-              "multiplier": 2
-            },
-            {
-              "name": "xl",
-              "multiplier": 3
-            },
-            {
-              "name": "2xl",
-              "multiplier": 4
-            },
-            {
-              "name": "3xl",
-              "multiplier": 6
-            }
-          ],
-          "includePairs": true,
-          "customPairs": [],
-          "unit": "rem",
-          "prefix": "space"
-        },
-        "typography": {
-          "steps": [
-            {
-              "minPx": 12,
-              "maxPx": 12
-            },
-            {
-              "minPx": 14,
-              "maxPx": 14
-            },
-            {
-              "minPx": 16,
-              "maxPx": 18
-            },
-            {
-              "minPx": 20,
-              "maxPx": 24
-            },
-            {
-              "minPx": 24,
-              "maxPx": 32
-            },
-            {
-              "minPx": 32,
-              "maxPx": 48
-            },
-            {
-              "minPx": 40,
-              "maxPx": 60
-            },
-            {
-              "minPx": 50,
-              "maxPx": 75
-            }
-          ],
-          "unit": "rem",
-          "prefix": "type"
-        }
-      }
+      ]
+    },
+    "type": {
+      "kind": "regular",
+      "modes": [
+        "default"
+      ]
     }
   }
 }
